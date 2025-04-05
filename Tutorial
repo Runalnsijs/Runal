@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Peringatan</title>
+  <style>
+    body {
+      background-color: black;
+      color: red;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 48px;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>HP KAMU KENA HACKING</h1>
+  <p>Segera amankan datamu...</p>
+</body>
+</html>
